@@ -1,12 +1,12 @@
 
 
-class LoginPage < SitePrism::Page
-    set_url '/game'
+# class LoginPage < SitePrism::Page
+#     set_url '/game'
 
-    element :modal_x, '.close'
+#     element :modal_x, "//div[@id='modalInitial']//button[@class='close']"
 
-    element :email, '#email'
-    element :email, '#senha'
+#     element :email, '#email'
+#     element :email, '#senha'
 
 
  #   element :email, '#email'
@@ -20,4 +20,4 @@ class LoginPage < SitePrism::Page
 #        self.sign_in.click
 #    end
 
-end
+# end
