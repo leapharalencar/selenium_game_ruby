@@ -1,18 +1,13 @@
 
 
 # class LoginPage < SitePrism::Page
-#     set_url '/game'
+#     set_url 'http://vanilton.net/selenium/game/'
 
-#     element :modal_x, "//div[@id='modalInitial']//button[@class='close']"
+#     element :modal_x, '//div[@id="modalInitial"]//button[@class="close"]'
 
 #     element :email, '#email'
-#     element :email, '#senha'
+#     element :senha, '#senha'
 
-
- #   element :email, '#email'
- #   element :password, 'input[type=password]'
- #   element :sign_in, 'button[id*=btnLogin]'
- #   element :message_error, '#login-errors'
 
 #    def do_login(user)
 #        self.email.set user ['email'] 
@@ -20,4 +15,4 @@
 #        self.sign_in.click
 #    end
 
-# end
+end

@@ -8,7 +8,7 @@
 
   Contexto: Página login
     * usuário acessa a página login
-  
+  @teste
   Cenário: logar com usuário valido
     Dado que eu tenho os dados de acesso:
       | nome  | caboquinho |

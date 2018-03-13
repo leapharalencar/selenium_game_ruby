@@ -15,7 +15,7 @@ Funcionalidade: Responder Questões quiz2
     Então envio a resposta fase dois
         E passa para a questão dois fase dois
 
-  @teste
+  
   Cenário: responder a o Quiz Fase 2 questão 2
     Dado que eu já respondi a questão um da fase dois
     Quando marco a resposta da fase dois questão dois
