@@ -9,8 +9,10 @@ Funcionalidade: Responder Questões quiz2
 Contexto: Usuário logado com quiz1 quiz2 e respondido
     * usuário acessa a página login, loga e responde o quiz um e dois
 
-
+@teste
  Cenário: responder a o Quiz Fase 3
     Quando preencho o cadastro do contratante
-    Então avanço com o cadastro
-        E passa para o cadastro do veiculo
+         E preencho o cadastro do veículo         
+    Então avanço para o orçamento
+         E valido os dados
+         E Confirmo o aluguel
