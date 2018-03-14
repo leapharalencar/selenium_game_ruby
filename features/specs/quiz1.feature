@@ -8,7 +8,7 @@ Funcionalidade: Responder Questões
  
   Contexto: Usuário logado
     * usuário acessa a página login e loga
-
+  @test_
   Cenário: responder a o Quiz Fase 1 questão 1
     Quando marco a resposta da fase um questão um
     Então envio a resposta
