@@ -24,9 +24,21 @@ Dado("usuário acessa a página login, loga e responde o quiz um e dois") do
   end
   
   Quando("preencho o cadastro do contratante") do
+    @resp3 = QuizPage3.new
+
+    @resp3.nome.
+    @resp3.cpf.
+    @resp3.dt_nasc.
+    @resp3.dt_habilit.
+    @resp3.tel.
+    @resp3.end.
+    @resp3.tel.click
+    @resp3.avancar_veiculo.click
+
+
+
     find('#nome_contratante').set "Raphael de Alencar"
     find('#cpf_contratante').set "22657874185"
-    find('#endereco_contratante').set "R. das flores"
     find('#dt_nascimento_contratante').set "12/08/1986"
     find('#dt_habilitacao_contratante').set "12/08/2006"
     find('#telefone_contratante').set "1156894578"    

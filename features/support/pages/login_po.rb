@@ -28,3 +28,13 @@
     element :Send_quiz2, '#quiz2 > button.mdl-button.mdl-js-button' 
     element :quiz2_status, '#quiz2_status'
  end
+ class QuizPage3 < SitePrism::Page
+    element :nome, '#nome_contratante'
+    element :cpf, '#cpf_contratante'
+    element :end, '#endereco_contratante'
+    element :dt_nasc, '#dt_nascimento_contratante'
+    element :dt_habilit, '#dt_habilitacao_contratante'
+    element :tel, '#telefone_contratante'
+    element :end, '#endereco_contratante'
+    element :avancar_veiculo, '#avancar_veiculo'
+ end
