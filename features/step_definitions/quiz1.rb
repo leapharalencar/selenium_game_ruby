@@ -3,54 +3,45 @@
 
 Dado("usuário acessa a página login e loga") do
     @login = LoginPage.new
-    @login.load    
-    @login.modal_x.click
-    @login.nome.set "cabloquinho"
-    @login.senha.set "0123456789"
-    @login.loginEntrar.click
+    @login.do_login
   end
   Dado("que eu já respondi a questão um") do
     @resp = QuizPage1.new
-    @resp.resp1.click
-    @resp.Send_quiz1.click
+    @resp.Q1_resp1
+
   end
 
   Dado("que eu já respondi a questão um e dois") do
     @resp = QuizPage1.new
-    @resp.resp1.click
-    @resp.Send_quiz1.click
-    @resp.resp2.click
-    @resp.Send_quiz1.click
+    @resp.Q1_resp1
+    @resp.Q1_resp2
   end
 
   Dado("que eu já respondi a questão um dois e três") do                        
     @resp = QuizPage1.new
-    @resp.resp1.click
-    @resp.Send_quiz1.click
-    @resp.resp2.click
-    @resp.Send_quiz1.click
-    @resp.resp3.click
-    @resp.Send_quiz1.click    
+    @resp.Q1_resp1
+    @resp.Q1_resp2   
+    @resp.Q1_resp3
   end 
 
   Quando("marco a resposta da fase um questão um") do 
     @resp = QuizPage1.new
-    @resp.resp1.click    
+    @resp.Q1_resp1    
   end
     
   Quando("marco a resposta da fase um questão dois") do
     @resp = QuizPage1.new
-    @resp.resp2.click 
+    @resp.Q1_resp2
   end
 
   Quando("marco a resposta da fase um questão três") do
     @resp = QuizPage1.new
-    @resp.resp3.click 
+    @resp.Q1_resp3
   end
 
   Quando("marco a resposta da fase um questão quatro") do                       
     @resp = QuizPage1.new
-    @resp.resp4.click 
+    @resp.Q1_resp4 
   end
 
   Então("envio a resposta") do

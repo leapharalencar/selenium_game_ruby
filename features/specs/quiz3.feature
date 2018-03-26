@@ -9,7 +9,7 @@ Funcionalidade: Responder Questões quiz2
 Contexto: Usuário logado com quiz1 quiz2 e respondido
     * usuário acessa a página login, loga e responde o quiz um e dois
 
-@teste
+
  Cenário: responder a o Quiz Fase 3
     Quando preencho o cadastro do contratante
          E preencho o cadastro do veículo         

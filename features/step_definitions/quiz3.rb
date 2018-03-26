@@ -24,16 +24,16 @@ Dado("usuário acessa a página login, loga e responde o quiz um e dois") do
   end
   
   Quando("preencho o cadastro do contratante") do
-    @resp3 = QuizPage3.new
+    # @resp3 = QuizPage3.new
 
-    @resp3.nome.
-    @resp3.cpf.
-    @resp3.dt_nasc.
-    @resp3.dt_habilit.
-    @resp3.tel.
-    @resp3.end.
-    @resp3.tel.click
-    @resp3.avancar_veiculo.click
+    # @resp3.nome.
+    # @resp3.cpf.
+    # @resp3.dt_nasc.
+    # @resp3.dt_habilit.
+    # @resp3.tel.
+    # @resp3.end.
+    # @resp3.tel.click
+    # @resp3.avancar_veiculo.click
 
 
 

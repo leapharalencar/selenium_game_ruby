@@ -6,9 +6,7 @@ Dado("usuário acessa a página login") do
   @login.modal_x.click
 end
 
-Dado("que eu tenho os dados de acesso:") do |table|
-  @login = LoginPage.new
-
+Dado("que eu tenho os dados de acesso:") do |table|  
   nome = table.rows_hash['nome']
   senha = table.rows_hash['senha']
   @login.nome.set nome
@@ -21,8 +19,7 @@ Dado("que eu tenho os dados de acesso {string}{string}") do |nome , senha|
 end
 
 Quando("faço login") do
-  @login = LoginPage.new
-  @login.loginEntrar.click
+   @login.loginEntrar.click
 end
 
 Então("vejo a mensagem {string}") do |msg|
